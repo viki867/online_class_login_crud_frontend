@@ -1,0 +1,93 @@
+/* Users.css */
+
+
+.users-container {
+width: 90%;
+margin: 40px auto;
+background-color: #f8f9fa;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.no-data {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+.user-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.update-btn,
+.delete-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.update-btn {
+    background-color: #ffc107;
+}
+
+
+.update-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+.delete-btn:hover {
+    background-color: #b02a37;
+}

@@ -1,0 +1,50 @@
+/* Create.css */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.back-btn {
+    margin-bottom: 10px;
+    background-color: #ccc;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.back-btn a {
+    text-decoration: none;
+    color: black;
+}
