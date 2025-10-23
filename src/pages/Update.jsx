@@ -29,7 +29,7 @@ setPhone(user[0].phone);
 
 const handlesubmit=(e)=>{
 e.preventDefault();
-axios.put(`https://employee-management-backend-xi.vercel.app/updateuser/${id}`,{name,email,phone},{ withCredentials: true })
+axios.put(`https://online-login-crud-authentication-ba.vercel.app/updateuser/${id}`,{name,email,phone},{ withCredentials: true })
 .then((res)=>{
 if(res.data.message){
 toast.success(res.data.message)
